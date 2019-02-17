@@ -1,10 +1,10 @@
 
 let BadGui
 try {
-    BadGui = require('badGui')
+    BadGui = require('../badGui')
 } catch (e) {
     try {
-        BadGui = require('badGui-master')
+        BadGui = require('../badGui-master')
     } catch (e) {
         console.log(`[GUICI] -- Could not be loaded due to badGui missing, please download it`)
     }
